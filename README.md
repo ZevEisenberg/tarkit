@@ -14,7 +14,7 @@ NSString* toPath = [[paths objectAtIndex:0] stringByAppendingPathComponent:@"tes
 [DCTar decompressFileAtPath:dataPath toPath:toPath error:nil];
 ```
 
-##Tar
+## Tar
 
 ```objc
 NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -37,7 +37,7 @@ I got some of the tar code from here:
 
 The recommended approach for installing tarkit is via the CocoaPods package manager (like most libraries).
 
-```
+```ruby
 pod 'tarkit', '~> 0.1.3'
 ```
 
